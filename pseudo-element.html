@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3::after{
+            content: '.pdf';
+            font-size: 24px;
+            color: red;
+            background-color: green;
+        }
+        h3::before{
+            content: 'Start: ';
+            background-color: blue;
+        }
+        p::first-letter{
+            font-size: 2em;
+        }
+        p::first-line{
+            background-color: aquamarine;
+        }
+        ::selection{
+            background-color: yellow;
+        }
+        input::placeholder{
+            color: blue ;
+        }
+    </style>
+</head>
+<body>
+    <h3>heading-1</h3>
+    <h3>heading-2</h3>
+    <h3>heading-3</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente officia, saepe harum deserunt fugit cumque ab veniam necessitatibus recusandae quod?</p>
+    <p>Natus provident officia eveniet unde repellat, laboriosam cupiditate sequi fugit! Sed, animi? Ipsa incidunt odio vero deserunt enim unde et?</p>
+    <p>Iure maiores accusantium eius vitae, mollitia aspernatur aut vero, pariatur velit recusandae tempora? Minima enim reprehenderit voluptate debitis autem aspernatur?</p>
+    <button onclick="welcome()">click Me</button>
+    <script>
+        // alert("Welcome to my Website");
+        function welcome() {
+            alert("code: SUMMERIES");
+        }
+    </script>
+</body>
+</html>
